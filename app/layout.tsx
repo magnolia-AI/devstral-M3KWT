@@ -1,11 +1,12 @@
 import './globals.css'
+import './portfolio.css'
 import type { Metadata } from 'next'
 import { Toaster } from "@/components/ui/toaster"
 import { ThemeProvider } from '@/components/theme-provider'
 
 export const metadata: Metadata = {
-  title: 'Next.js Template',
-  description: 'A customizable template built with Next.js and Tailwind CSS',
+  title: 'John Doe | Full Stack Developer Portfolio',
+  description: 'Professional portfolio showcasing web development projects, skills, and experience',
   icons: {
     icon: '/favicon.ico',
   },
@@ -29,3 +30,4 @@ export default function RootLayout({
     </html>
   )
 }
+
